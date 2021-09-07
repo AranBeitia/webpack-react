@@ -1,0 +1,16 @@
+@use '../abstracts' as var;
+
+* {
+  color: var.$color-blue;
+  background-color: var.$color-white;
+}
+
+body {
+  height: 100vh;
+}
+
+.center {
+  display: block;
+  max-width: 300px;
+  margin: auto;
+}
